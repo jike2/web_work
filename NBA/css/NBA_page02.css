@@ -1,0 +1,62 @@
+body{
+    /*background: #666;*/
+    font: 12px/1.5 tahoma,'Hiragino Sans GB','\5b8b\4f53';
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+a {
+    width: 10vw;
+    height: 130px;
+    font-size: 30px;
+    line-height: 130px;
+    text-decoration: none;
+}
+/*导航栏*/
+#nav{
+    width: 100vw;
+    height: 130px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 100;
+}
+#nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    clear: both;/*清除浮动*/
+}
+#nav ul li{
+    float: left;/*向左浮动，一个一个排列*/
+    margin-left: 100px;
+    width: 120px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+
+}
+#nav ul li a{
+    color: #F5F5F5;
+    text-decoration: none;
+}
+#nav ul li a:hover{
+    color: #000000;
+    background-color: #46b8da;
+}
+#nav ul li:hover .submenu{
+    display: block;/*鼠标经过和停止时显示二级菜单*/
+}
+.submenu{
+    display: none;/*二级导航栏默认不显示*/
+
+}
+.submenu a{
+    background-color:rgba(0,0,0,0.5);
+    display: block;
+}
+.submenu a:hover .submenu3{
+    display: block;
+}
+.submenu3{
+    display: none;
+}

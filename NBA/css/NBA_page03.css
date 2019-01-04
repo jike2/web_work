@@ -1,0 +1,30 @@
+#daohang2{
+    margin: 0 auto;
+    width:1500px;
+    height: 800px;
+    background-color: 	#F5F5F5;
+}
+#dl1{
+    float: left;
+    margin-left: 100px;
+    width: 600px;
+    height: 800px;
+}
+.dl1 img{
+    float: left;
+    width: 600px;
+    height: 800px;
+    border-radius: 1em;
+}
+#dl2{
+    float: left;
+    margin-left: 100px;
+    width: 600px;
+    height: 800px;
+}
+.dl2 img{
+    float: left;
+    width: 600px;
+    height: 800px;
+    border-radius: 1em;
+}
